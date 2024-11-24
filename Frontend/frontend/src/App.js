@@ -14,7 +14,7 @@ function App() {
   });
 
   async function getData() {
-    const response = await axios.get("http://localhost:3000/students");
+    const response = await axios.get("https://nodeproject-backend-thox.onrender.com");
     setData(response.data);
   }
 
